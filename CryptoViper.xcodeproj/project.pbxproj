@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		FCFE921A2764880400EC6968 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFE92192764880400EC6968 /* AppDelegate.swift */; };
 		FCFE921C2764880400EC6968 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFE921B2764880400EC6968 /* SceneDelegate.swift */; };
-		FCFE921E2764880400EC6968 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFE921D2764880400EC6968 /* ViewController.swift */; };
-		FCFE92212764880400EC6968 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCFE921F2764880400EC6968 /* Main.storyboard */; };
 		FCFE92232764880600EC6968 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCFE92222764880600EC6968 /* Assets.xcassets */; };
 		FCFE92262764880600EC6968 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCFE92242764880600EC6968 /* LaunchScreen.storyboard */; };
 		FCFE92312764880600EC6968 /* CryptoViperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFE92302764880600EC6968 /* CryptoViperTests.swift */; };
 		FCFE923B2764880600EC6968 /* CryptoViperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFE923A2764880600EC6968 /* CryptoViperUITests.swift */; };
 		FCFE923D2764880600EC6968 /* CryptoViperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFE923C2764880600EC6968 /* CryptoViperUITestsLaunchTests.swift */; };
+		FCFE924A2764892800EC6968 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFE92492764892800EC6968 /* View.swift */; };
+		FCFE924C2764893100EC6968 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFE924B2764893100EC6968 /* Interactor.swift */; };
+		FCFE924E2764893800EC6968 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFE924D2764893800EC6968 /* Presenter.swift */; };
+		FCFE92502764894300EC6968 /* Entitiy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFE924F2764894300EC6968 /* Entitiy.swift */; };
+		FCFE92522764894C00EC6968 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFE92512764894C00EC6968 /* Router.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +42,6 @@
 		FCFE92162764880400EC6968 /* CryptoViper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoViper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCFE92192764880400EC6968 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCFE921B2764880400EC6968 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FCFE921D2764880400EC6968 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FCFE92202764880400EC6968 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FCFE92222764880600EC6968 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCFE92252764880600EC6968 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCFE92272764880600EC6968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +50,11 @@
 		FCFE92362764880600EC6968 /* CryptoViperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoViperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCFE923A2764880600EC6968 /* CryptoViperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoViperUITests.swift; sourceTree = "<group>"; };
 		FCFE923C2764880600EC6968 /* CryptoViperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoViperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FCFE92492764892800EC6968 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		FCFE924B2764893100EC6968 /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
+		FCFE924D2764893800EC6968 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		FCFE924F2764894300EC6968 /* Entitiy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entitiy.swift; sourceTree = "<group>"; };
+		FCFE92512764894C00EC6968 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +107,14 @@
 			children = (
 				FCFE92192764880400EC6968 /* AppDelegate.swift */,
 				FCFE921B2764880400EC6968 /* SceneDelegate.swift */,
-				FCFE921D2764880400EC6968 /* ViewController.swift */,
-				FCFE921F2764880400EC6968 /* Main.storyboard */,
 				FCFE92222764880600EC6968 /* Assets.xcassets */,
 				FCFE92242764880600EC6968 /* LaunchScreen.storyboard */,
 				FCFE92272764880600EC6968 /* Info.plist */,
+				FCFE92492764892800EC6968 /* View.swift */,
+				FCFE924B2764893100EC6968 /* Interactor.swift */,
+				FCFE924D2764893800EC6968 /* Presenter.swift */,
+				FCFE924F2764894300EC6968 /* Entitiy.swift */,
+				FCFE92512764894C00EC6968 /* Router.swift */,
 			);
 			path = CryptoViper;
 			sourceTree = "<group>";
@@ -233,7 +242,6 @@
 			files = (
 				FCFE92262764880600EC6968 /* LaunchScreen.storyboard in Resources */,
 				FCFE92232764880600EC6968 /* Assets.xcassets in Resources */,
-				FCFE92212764880400EC6968 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +266,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCFE921E2764880400EC6968 /* ViewController.swift in Sources */,
+				FCFE92522764894C00EC6968 /* Router.swift in Sources */,
+				FCFE924E2764893800EC6968 /* Presenter.swift in Sources */,
+				FCFE924A2764892800EC6968 /* View.swift in Sources */,
+				FCFE924C2764893100EC6968 /* Interactor.swift in Sources */,
 				FCFE921A2764880400EC6968 /* AppDelegate.swift in Sources */,
+				FCFE92502764894300EC6968 /* Entitiy.swift in Sources */,
 				FCFE921C2764880400EC6968 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,14 +309,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FCFE921F2764880400EC6968 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FCFE92202764880400EC6968 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FCFE92242764880600EC6968 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -444,7 +448,6 @@
 				INFOPLIST_FILE = CryptoViper/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -456,7 +459,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -472,7 +475,6 @@
 				INFOPLIST_FILE = CryptoViper/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -484,7 +486,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
